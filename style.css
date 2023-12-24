@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  text-decoration: none;
+}
+
+header {
+  margin: auto 0px 15px;
+}
+
+body {
+  background: hsla(0, 0%, 85%, 1);
+  padding: 48px 16px;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+}
+
+h3 {
+  font-family: Lato, sans-serif;
+}
+
+h4 {
+  font-family: Lato, sans-serif;
+}
+
+p{
+  font-family: Lato, sans-serif;
+}
+
+span {
+  font-family: Lato, sans-serif;
+}
+
+hr {
+  background: hsla(216, 33%, 97%, 1);
+}
+
+nav {
+  margin-top: -28px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+}
+
+.nav img{
+  height: 40px;
+  width: 200px;
+}
+
+.nav-item {
+  padding-left: 0px;
+  display: flex;
+  margin-right: 40px;
+  color: hsla(211, 35%, 17%, 1);
+  font-size: 18px;
+}
+
+.account{
+  border-radius: 5px;
+  border-color: hsla(0, 0%, 47%, 0.315)002c;
+  width: 91px;
+  height: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+main {
+  width: 100%;
+  height: 100%;
+  margin-top: 85px;
+  
+
+  border-radius: 5px;
+  background: white;
+
+  box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5);
+  display: flex;
+}
+
+
+
+.left {
+  width: 70%;
+  height: 100%; border-radius: 5px;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+
+.left-aside-title {
+  width: 100%;
+  height: 100%;
+  color: #1d2c3c;
+  font-size: 30px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 6%;
+  position: relative;
+}
+
+.image-with-number {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 40px;
+
+  margin-right: 20px;
+}
+
+.image-with-number p {
+  position: absolute; /* Position relative to the container */
+  top: -23%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Offset by half of its width and height */
+  font-size: 24px; /* Adjust font size as desired */
+  color: rgb(71, 117, 204); /* Adjust text color as desired */
+  text-align: center; /* Center the text within the number element */
+  margin-right: 20px;
+}
+
+.checkout-info {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.top-row {
+  display: flex; /* Create a row for image and heading */
+  align-items: center;
+}
+
+.top-row h3 {
+  margin-left: -12px;
+  margin-top: 20px;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+
+.row-2 h4 {
+  margin-left: 40px;
+  flex-grow: 1;
+}
+
+input[type="text"] {
+  width: 100%; /* Adjust width as needed */
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: hsla(216, 16%, 94%, 1);
+  border-radius: 5px;
+  margin-bottom: 10px; /* Adjust spacing between fields */
+  margin-top: -10px;
+}
+
+.text-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text-fields input {
+  margin-left: 40px;
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+.email {
+  margin-left: 40px;
+}
+
+.buy-button {
+  display: flex;
+
+  text-align: center;
+  width: 70%;
+  border-radius: 5px;
+  margin-left: 10%;
+  background-color: hsla(173, 96%, 28%, 1);
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.buy-button h3 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contact-main {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact h4 {
+  display: flex;
+  margin-left: 10px;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.contact p {
+  margin-left: 5px;
+  margin-top: 20px;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.contact-support {
+  display: flex;
+  margin-left: 38%;
+  margin-top: -35px;
+  color: #646e7a;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.stripe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.right {
+  width: 30%;
+  height: 100%;
+  background-color: hsla(204, 84%, 41%, 1); border-radius: 5px;
+}
+
+.right-aside div {
+  margin-left: 40px;
+
+  color: white;
+}
+
+.right-aside ul {
+  list-style: none;
+}
+
+.freelancer {
+  font-size: 20px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.amount {
+  font-size: 60px;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.year {
+  font-size: 18px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.automatic {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+
+.list {
+  align-items: start;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center; /* Vertically align image and text */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+  margin-bottom: -30px;
+}
+
+.feature-row h4 {
+  margin-left: 10px;
+}
+
+.client {
+  font-size: 16px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.border-line {
+  width: 300px;
+  opacity: 0.2;
+  background: white;
+}
+
+.ftp {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.circular-avatar {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Same as width for a circle */
+  border-radius: 50%; /* Creates the circle */
+  overflow: hidden; /* Hides any excess image */
+}
+
+.profile{
+  display: flex;
+  margin-bottom: 110px;
+}
+
+.profile h4{
+  
+font-size: 16px;
+
+font-weight: 700;
+word-wrap: break-word;
+margin-left: 16px;
+margin-top: 8px;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  color: #636b6f;
+  font-size: 14px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+footer h4 {
+  color: #31708f;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 11px;
+}
